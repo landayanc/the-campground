@@ -1,0 +1,25 @@
+{
+  "name": "the-campground",
+  "version": "1.0.0",
+  "description": "The Campground v1.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/landayanc/the-campground.git"
+  },
+  "author": "Charlene Landayan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/landayanc/the-campground/issues"
+  },
+  "homepage": "https://github.com/landayanc/the-campground#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}
