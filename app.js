@@ -37,6 +37,6 @@ app.get("/campgrounds/new", function(req, res){
     res.render("new");
 });
 
-app.listen(3000, 'localhost', function(){
+app.listen(process.env.PORT, process.env.IP, function(){
     console.log("The Campground server has started!");
 });
